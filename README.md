@@ -31,7 +31,7 @@ even if you already know Git, as it explains how development is done on GitHub.
 
 1. Download the FairShip software
     ```bash
-    git clone https://github.com/ShipSoft/FairShip.git
+    git clone https://github.com/Switch-bot/FairShip.git
     ```
 
 2. Make sure you can access the SHiP CVMFS Repository
@@ -40,7 +40,7 @@ even if you already know Git, as it explains how development is done on GitHub.
     ```
 3. Source the setUp script
     ```bash
-    source /cvmfs/ship.cern.ch/SHiP-2018/latest/setUp.sh
+    source /cvmfs/ship.cern.ch/SHiP-2020/latest/setUp.sh
     ```
 
 4. Build the software using aliBuild
@@ -68,7 +68,7 @@ eval alienv load FairShip/latest
 Commands are similar to the previous case, but without access to CVMFS you need to build the required packages.
 1. Download the FairShip software
     ```bash
-    git clone https://github.com/ShipSoft/FairShip.git
+    git clone https://github.com/Switch-bot/FairShip.git
     ```
 2. Build the software using aliBuild
     ```bash
@@ -83,7 +83,7 @@ Commands are similar to the previous case, but without access to CVMFS you need 
 Set up the bulk of the environment from CVMFS.
 
 ```bash
-source /cvmfs/ship.cern.ch/SHiP-2018/latest/setUp.sh
+source /cvmfs/ship.cern.ch/SHiP-2020/latest/setUp.sh
 ```
 
 Load your local FairShip environment.
@@ -123,7 +123,7 @@ desirable.
 
 1. Build an docker image from the provided `Dockerfile`:
     ```bash
-    git clone https://github.com/ShipSoft/FairShip.git
+    git clone https://github.com/Switch-bot/FairShip.git
     cd FairShip
     docker build -t fairship .
     ``` 
